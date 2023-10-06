@@ -1,0 +1,103 @@
+.container-form{
+    width: 20rem;
+    height: auto;
+   
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-family: arial;
+
+    border-radius: 5px;
+    border: 2px solid #4473C5;
+
+}
+
+.box-form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    gap: 15px;
+}
+.box-input-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+select,input{
+    width: 100%;
+    height: 2rem;
+
+    font-size: 1em;
+
+    outline: none;
+    border-radius: 7px;
+    border: 1px solid #4473C5;
+    
+    padding: 5px;
+}
+
+.box-title-form{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4473C5;
+}
+
+.title-form{
+    font-size: 1.2em;
+    color: white;
+    font-weight: bold;
+}
+
+.box-buttons-form{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.button-form{
+    width: 7rem;
+    
+    font-size: 1.1em;
+    color: white;
+
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+
+}
+
+.button-skip{
+    background-color:#6FAC49 ;
+    height: 2.2rem;
+}
+
+.button-return{
+    background-color:#FFC100;
+    height: 2rem;
+}
+
+.button-skip:hover{
+    background-color:#8fe759 ;
+}
+
+.button-return:hover{
+    background-color:#fec929f5;
+}

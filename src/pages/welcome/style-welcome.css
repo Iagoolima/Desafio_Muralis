@@ -1,0 +1,32 @@
+.container-welcome{
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #0e2c4d;
+
+    background-image: linear-gradient(90deg, #0e2c4d, #336faf);
+    padding: 10px;
+}
+
+
+.bg-muralis{
+    background-image: url(./../../assets/image-muralis.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:40rem;
+    height: 40rem;
+}
+
+@media(max-width:900px){
+    .container-welcome{
+        flex-direction: column-reverse;
+        padding-top: 2rem;
+    }
+    .bg-muralis{
+        width: 80%;
+    }
+}
